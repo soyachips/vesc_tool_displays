@@ -386,11 +386,13 @@ Item {
             
             // temperatures
             tempTextValue.text =
+                /*
                 useImperial ? 
                 "<br><br><br>" +
                 parseFloat(values.temp_mos * 9/5 + 32).toFixed() + "<font size='1' color='#AAAAAA'> \u00B0F</font> / " +
                 parseFloat(values.temp_motor * 9/5 + 32).toFixed() + "<font size='1' color='#AAAAAA'> \u00B0F</font>"
                 :
+                */
                 "<br><br><br>" +
                 parseFloat(values.temp_mos).toFixed() + "<font size='1' color='#AAAAAA'> \u00B0C</font> / " +
                 parseFloat(values.temp_motor).toFixed() + "<font size='1' color='#AAAAAA'> \u00B0C</font>"
